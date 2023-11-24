@@ -1,4 +1,4 @@
-# (©)Codexbotz
+  # (©)Codexbotz
 # Recode by @mrismanaziz
 # t.me/SharingUserbot & t.me/Lunatic0de
 
@@ -11,7 +11,7 @@ from logging.handlers import RotatingFileHandler
 load_dotenv("config.env")
 
 # Bot token dari @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6861359749:AAF2Hzc3fW9uB3vvafv2ZoeTb43F5Gh71W8")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6583519257:AAF52DhZBXv0vMGq42jdnkgdQMHx25MY1TE")
 
 # API ID Anda dari my.telegram.org
 APP_ID = int(os.environ.get("APP_ID", "10064016"))
@@ -35,8 +35,8 @@ DB_URI = os.environ.get("DATABASE_URL", "postgres://vyycuivp:1-aE8qUVKL9bl2bJ_ti
 PROTECT_CONTENT = strtobool(os.environ.get("PROTECT_CONTENT", "False"))
 
 # ID dari Channel Atau Group Untuk Wajib Subscribenya
-FORCE_SUB_1 = int(os.environ.get("FORCE_SUB_1", "-1001989694963"))
-FORCE_SUB_2 = int(os.environ.get("FORCE_SUB_2", "-1001503152471"))
+FORCE_SUB_1 = int(os.environ.get("FORCE_SUB_1", "-1002051296530"))
+FORCE_SUB_2 = int(os.environ.get("FORCE_SUB_2", "-1001693052298"))
 FORCE_SUB_3 = int(os.environ.get("FORCE_SUB_3", "0"))
 FORCE_SUB_4 = int(os.environ.get("FORCE_SUB_4", "0"))
 FORCE_SUB_5 = int(os.environ.get("FORCE_SUB_5", "0"))
